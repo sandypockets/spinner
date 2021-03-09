@@ -1,6 +1,5 @@
 const spinner = () => {
   let delay = 100;
-  let counter = 0;
   setTimeout(() => {
     process.stdout.write('\r|   ');
   }, delay);
